@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+</head>
+<body>
+	<h1>REGISTER</h1>
+	<form action="/be6-web/confirmation.jsp" method="post">
+		<label> <b>Username:</b> </label> 
+			<input type="text" id="username" name="username" placeholder="Enter Username" required /><br> 
+		<label> <b>Password:</b> </label> 
+			<input type="password" id="password" name="password" style="-webkit-text-security: circle" placeholder="Enter Password" required /><br> 
+		<label> <b>Gender:</b> </label> 
+			<input type="radio" id="female" name="gender" value="female"> <label for="female">female</label> 
+			<input type="radio" id="male" name="gender" value="male"> <label for="male">male</label><br>
+
+		<label> <b>Hobbies:</b> </label> 
+			<input type="checkbox" id="Music" name="hobbies" value="Music"> <label for="Music"> Music </label> 
+			<input type="checkbox" id="Sport" name="hobbies" value="Sport"> <label for="Sport"> Sport </label> 
+			<input type="checkbox" id="Reading" name="hobbies" value="Reading"> <label for="Reading"> Reading </label><br>
+
+		<label> <b>Languages:</b> </label> 
+			<input type="checkbox" id="Vietnamese" name="languages" value="Vietnamese"> <label for="Vietnamese"> Vietnamese </label> 
+			<input type="checkbox" id="English" name="languages" value="English"> <label for="English"> English </label> 
+			<input type="checkbox" id="Germany" name="languages" value="Germany"> <label for="Germany"> Germany </label><br> 
+		
+		<label> <b>City:</b>
+		</label> <select id="city" name="city">
+			<option value="Choose the city">Choose the city</option>
+			<option value="Ho Chi Minh City">Ho Chi Minh City</option>
+			<option value="Hanoi">Hanoi</option>
+			<option value="Sydney">Sydney</option> </select><br>
+
+		<button>Submit</button>
+		
+	</form>
+</body>
+</html>
